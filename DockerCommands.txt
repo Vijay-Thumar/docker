@@ -1,9 +1,9 @@
 ** Docker basic commands
-docker Run Image_Name --> (This command will run the image or container if does not exist then it will download image and run it.)
-docker ps --> (It will list running images "-a" flag will list all the container available)
-docker stop container_id/container_name --> (stop the docker images aka container)
-docker rm Cid/Cname --> (remove the container)
-docker images --> (list of images)
-docker pull image_name --> (download image from internet)
-docker run ubuntu sleep 5 (os will be sleep into the 5 seconds) -- ig thr image is not running any task then it will be exited from container list
-docker exec container_id command (execute command into the container) ex: docker exec 538d cat /etc/host (print all items inside folder)
+docker Run Image_Name                                    (This command will run the image or container if does not exist then it will download image and run it.)
+docker ps                                                (It will list running images "-a" flag will list all the container available)
+docker stop container_id/container_name                  (stop the docker images aka container)
+docker rm Cid/Cname                                      (remove the container)
+docker images                                            (list of images)
+docker pull image_name                                   (download image from internet)
+docker run ubuntu sleep 5                                (os will be sleep into the 5 seconds) -- if the image is not running any task then it will be exited from container list
+docker exec container_id command                         (execute command into the container) ex: docker exec 538d cat /etc/host (print all items inside folder)
