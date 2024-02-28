@@ -25,6 +25,4 @@ docker -it image_name                                    (-it where t stands for
 docker run -p 3306:3306 mysql                            (this will take 3306:3306 first will be the container inside port and bind with machine port 3306 actual port so we can access that using our port)
 docker run 
 
-*************************************************************** End *************************************************************** 
-
-learning new with akshay  nskjdnfsf
+*************************************************************** End ***************************************************************
