@@ -1,5 +1,5 @@
 ******************************************************* Docker commands list *******************************************************
-**********************************vvv
+
 ** Docker basic commands
 docker Run Image_Name                                    (This command will run the image or container if does not exist then it will download image and run it.)
 docker stop container_id/container_name                  (stop the docker images aka container)
