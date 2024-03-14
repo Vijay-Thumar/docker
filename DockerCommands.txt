@@ -1,7 +1,7 @@
 ******************************************************* Docker commands list *******************************************************
 
 ** Docker basic commands
-docker Run Image_Name                                    (This command will run the image or container if does not exist then it will download image and run it.)
+docker run Image_Name                                    (This command will run the image or container if does not exist then it will download image and run it.)
 docker stop container_id/container_name                  (stop the docker images aka container)
 docker ps                                                (It will list running images "-a" flag will list all the container available)
 docker ps -a                                             (to list all the container even if they are stop)
@@ -23,6 +23,8 @@ docker -it image_name                                    (-it where t stands for
 
 ** port mapping command
 docker run -p 3306:3306 mysql                            (this will take 3306:3306 first will be the container inside port and bind with machine port 3306 actual port so we can access that using our port)
-docker run 
+
+** docker build for creating container
+docker build -t docker_container_name .                  (-t will define the tag name for your container and . will use to define current directory as the build context)
 
 *************************************************************** End ***************************************************************
